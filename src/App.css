@@ -1,0 +1,51 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.bg-color {
+  font-family: 'Outfit', sans-serif; /* sets the font family to "Outfit" with a fallback of sans-serif */
+  position: relative; 
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  max-width: 375px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+@media screen and (min-width: 375px) {
+  .bg-color {
+    max-width: 1440px;
+  }
+}
+
+.main-container{
+  background-color: #fff;
+  padding: .85rem;
+  width: 255px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.main-container .qr-code {
+  width: 255px;
+  border-radius: 10px;
+}
+
+.content h1 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: hsl(220, 15%, 55%);
+  margin-block-start: 1em;
+  margin-block-end: 1.5em;
+}
